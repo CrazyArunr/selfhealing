@@ -1,0 +1,40 @@
+2025-02-19 08:14:26.526  INFO 1 - [       main] c.epam.healenium.Application     : Starting Application v3.4.4 using Java 17.0.10 with PID 1 (/healenium-backend.jar started by root in /) 
+2025-02-19 08:14:26.557  INFO 1 - [       main] c.epam.healenium.Application     : No active profile set, falling back to 1 default profile: "default" 
+2025-02-19 08:14:28.110  INFO 1 - [       main] .RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2025-02-19 08:14:34.704  INFO 1 - [       main] .RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 226 ms. Found 4 JPA repository interfaces. 
+2025-02-19 08:14:29.532  INFO 1 - [       main] o.s.b.w.e.t.TomcatWebServer      : Tomcat initialized with port 7878 (http) 
+2025-02-19 08:14:29.555  INFO 1 - [       main] o.a.c.core.StandardService       : Starting service [Tomcat] 
+2025-02-19 08:14:29.556  INFO 1 - [       main] o.a.c.core.StandardEngine        : Starting Servlet engine: [Apache Tomcat/10.1.18] 
+2025-02-19 08:14:29.629  INFO 1 - [       main] o.a.c.c.C.[.[localhost].[/]      : Initializing Spring embedded WebApplicationContext 
+2025-02-19 08:14:29.630  INFO 1 - [       main] rvletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2936 ms 
+2025-02-19 08:14:30.027  INFO 1 - [       main] c.z.hikari.HikariDataSource      : HikariPool-1 - Starting... 
+2025-02-19 08:14:30.288  INFO 1 - [       main] c.z.hikari.HikariDataSource      : HikariPool-1 - Start completed. 
+2025-02-19 08:14:30.468  INFO 1 - [       main] liquibase.database               : Set default schema name to healenium 
+2025-02-19 08:14:31.217  INFO 1 - [       main] liquibase.changelog              : Reading from healenium.databasechangelog 
+2025-02-19 08:14:31.281  INFO 1 - [       main] liquibase.ui                     : Database is up to date, no changesets to execute 
+2025-02-19 08:14:31.284  INFO 1 - [       main] liquibase.changelog              : Reading from healenium.databasechangelog 
+2025-02-19 08:14:31.295  INFO 1 - [       main] liquibase.util                   : UPDATE SUMMARY 
+2025-02-19 08:14:31.296  INFO 1 - [       main] liquibase.util                   : Run:                          0 
+2025-02-19 08:14:31.296  INFO 1 - [       main] liquibase.util                   : Previously run:              10 
+2025-02-19 08:14:31.297  INFO 1 - [       main] liquibase.util                   : Filtered out:                 0 
+2025-02-19 08:14:31.297  INFO 1 - [       main] liquibase.util                   : ------------------------------- 
+2025-02-19 08:14:31.297  INFO 1 - [       main] liquibase.util                   : Total change sets:           10 
+2025-02-19 08:14:31.298  INFO 1 - [       main] liquibase.util                   : Update summary generated 
+2025-02-19 08:14:31.322  INFO 1 - [       main] liquibase.lockservice            : Successfully released change log lock 
+2025-02-19 08:14:31.325  INFO 1 - [       main] liquibase.command                : Command execution complete 
+2025-02-19 08:14:31.487  INFO 1 - [       main] o.h.j.internal.util.LogHelper    : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2025-02-19 08:14:31.625  INFO 1 - [       main] org.hibernate.Version            : HHH000412: Hibernate ORM core version 6.4.1.Final 
+2025-02-19 08:14:31.683  INFO 1 - [       main] o.h.c.i.RegionFactoryInitiator   : HHH000026: Second-level cache disabled 
+2025-02-19 08:14:32.058  INFO 1 - [       main] .o.j.p.SpringPersistenceUnitInfo : No LoadTimeWeaver setup: ignoring JPA class transformer 
+2025-02-19 08:14:32.100  WARN 1 - [       main] org.hibernate.orm.deprecation    : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default) 
+2025-02-19 08:14:39.929  WARN 1 - [       main] o.h.m.internal.MetadataContext   : HHH015011: Unable to locate static metamodel field : com.epam.healenium.model.domain.Selector_#nodePathWrapper; this may or may not indicate a problem with the static metamodel 
+2025-02-19 08:14:39.935  INFO 1 - [       main] h.e.t.j.p.i.JtaPlatformInitiator : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) 
+2025-02-19 08:14:39.939  INFO 1 - [       main] ontainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2025-02-19 08:14:34.193  INFO 1 - [       main] o.s.d.j.r.q.QueryEnhancerFactory : Hibernate is in classpath; If applicable, HQL parser will be used. 
+2025-02-19 08:14:35.050  INFO 1 - [       main] .a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2025-02-19 08:14:36.029  INFO 1 - [       main] .s.b.a.e.w.EndpointLinksResolver : Exposing 1 endpoint(s) beneath base path '/actuator' 
+2025-02-19 08:14:36.173  INFO 1 - [       main] o.s.b.w.e.t.TomcatWebServer      : Tomcat started on port 7878 (http) with context path '' 
+2025-02-19 08:14:36.450  INFO 1 - [       main] c.epam.healenium.Application     : Started Application in 10.994 seconds (process running for 12.98) 
+2025-02-19 08:30:48.967  INFO 1 - [7878-exec-1] o.a.c.c.C.[.[localhost].[/]      : Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2025-02-19 08:30:49.011  INFO 1 - [7878-exec-1] o.s.w.s.DispatcherServlet        : Initializing Servlet 'dispatcherServlet' 
+2025-02-19 08:30:49.125  INFO 1 - [7878-exec-1] o.s.w.s.DispatcherServlet        : Completed initialization in 112 ms 

@@ -1,0 +1,4 @@
+# Created at 2025-02-19T19:24:01.839
+Boot Manifest-JAR contains absolute paths in classpath 'e:\BI HUB\SelfHealingAutomation-master\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

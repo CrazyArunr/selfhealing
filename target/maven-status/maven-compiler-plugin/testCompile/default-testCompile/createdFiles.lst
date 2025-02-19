@@ -1,0 +1,4 @@
+pageObjects\AmazonSearchPage.class
+pageObjects\AmazonSignInPage.class
+tests\AmazonTests.class
+pageObjects\AmazonProductPage.class
